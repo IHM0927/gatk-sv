@@ -176,7 +176,7 @@ workflow GatherSampleEvidence {
         gatk_docker = gatk_docker,
         mem_gb = mem_gb_for_collect_counts,
         disk_space_gb = disk_space_gb_for_collect_counts,
-        disabled_read_filters = ["MappingQualityReadFilter"]
+        disabled_read_filters = []
     }
   }
 
